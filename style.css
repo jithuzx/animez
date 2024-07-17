@@ -22,7 +22,7 @@
 .navbar .nav-items{
     float:left;
     display: flex;
-    padding-left: 58%;
+    padding-left: 50%;
     flex-direction: row;
     align-items:end;
 }
@@ -31,7 +31,7 @@
     font-family: "Dosis", sans-serif;
     font-size: 120%;
     font-weight: 100;
-    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .navbar .nav-items li{
@@ -63,7 +63,7 @@ video{
 }
 
 .container{
-    margin: 25% 0% 0% 2%;
+    margin: 22% 0% 0% 2%;
 }
 
 .container h2{
@@ -81,7 +81,7 @@ video{
     font-family: "Rubik", sans-serif;
     font-size: 120%;
     font-weight: 40;
-    width: 50%;
+    width: 30%;
     text-transform: uppercase;
     padding-top: 0%;
     padding-bottom: 2%;
