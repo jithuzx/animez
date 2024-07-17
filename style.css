@@ -2,25 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 nav{
-    line-height: 70px;
     background: rgba(0,0,0,0.5);
     padding: 0% 0%;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
 }
 
 nav .navbar{
     display: flex;
     flex-direction: row;
-    justify-content:safe;
     align-items: center;
 }
 
 nav .navbar h3{
-    font-size: 2.7em;
+    font-size: 320%;
     font-weight: 500;
     padding-left: 20%;
     font-family: "Rubik", sans-serif;
@@ -38,7 +34,7 @@ nav .navbar .nav-items{
 
 nav .navbar .nav-items h6{
     font-family: "Dosis", sans-serif;
-    font-size: 17;
+    font-size: 120%;
     font-weight: 100;
     padding-left: 10%;
 }
@@ -49,7 +45,7 @@ nav .navbar .nav-items li{
 
 nav .navbar .nav-items li a{
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 120%;
     font-weight: 1000;
     color: rgb(255, 255, 255);
     transition: all 0.3s;
@@ -71,36 +67,37 @@ video{
     z-index: -2;
 }
 
-.overlay{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-    background:rgba(0,0,0,0.2);
-    z-index: -1;
-}
-
 .container{
-    margin: 30% 10% 0 2%;
+    margin: 25% 0% 0% 2%;
 }
 
 .container h2{
     color: rgb(255, 0, 0);
-    font-size: 50px;
+    font-size: 350%;
     font-weight: 700;
+    font-family: "Dosis", sans-serif;
     text-transform: uppercase;
     text-decoration: underline;
+    padding-top: 10%;
 }
 
 .container p{
     color: white;
-    font-size: 1em;
-    font-weight: 20;
+    font-family: "Rubik", sans-serif;
+    font-size: 120%;
+    font-weight: 40;
     width: 50%;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+
+.container h5{
+    margin:1% 0% 0% 85%;
+    font-family: "Tangerine", cursive;
+    color: white;
+    font-size: 200%;
+
 }
 
 .container a{
@@ -112,9 +109,9 @@ video{
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
-  font-weight: 800;
+  font-family: "Rubik", sans-serif;
+  font-size: 100%;
+  font-weight: 500;
   line-height: 90%;
   min-height: 4%;
   outline: 0;
