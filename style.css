@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 
-nav{
-    background: rgba(0,0,0,0.5);
-    padding: 0% 0%;
-}
-
-nav .navbar{
+.navbar{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-nav .navbar h3{
+.navbar h3{
     font-size: 320%;
     font-weight: 500;
     padding-left: 20%;
@@ -24,7 +19,7 @@ nav .navbar h3{
     color: rgb(255, 0, 0);
 }
 
-nav .navbar .nav-items{
+.navbar .nav-items{
     float:left;
     display: flex;
     padding-left: 58%;
@@ -32,18 +27,18 @@ nav .navbar .nav-items{
     align-items:end;
 }
 
-nav .navbar .nav-items h6{
+.navbar .nav-items h6{
     font-family: "Dosis", sans-serif;
     font-size: 120%;
     font-weight: 100;
     padding-left: 10%;
 }
 
-nav .navbar .nav-items li{
+.navbar .nav-items li{
     list-style:none;
 }
 
-nav .navbar .nav-items li a{
+.navbar .nav-items li a{
     text-decoration: none;
     font-size: 120%;
     font-weight: 1000;
@@ -51,7 +46,7 @@ nav .navbar .nav-items li a{
     transition: all 0.3s;
 }
 
-nav .navbar .nav-items li a:hover{
+.navbar .nav-items li a:hover{
     color: red;
 }
 
@@ -93,10 +88,14 @@ video{
 }
 
 .container h5{
-    margin:1% 0% 0% 85%;
     font-family: "Tangerine", cursive;
     color: white;
     font-size: 200%;
+    align-items: end;
+    flex-direction: row;
+    margin-top: 1%;
+    padding-right: 5%;
+    float: right;
 
 }
 
