@@ -62,7 +62,9 @@ video{
 }
 
 .container{
-    margin: 20% 0% 0% 2%;
+    margin: 0% 0% 0% 2%;
+    position:absolute;
+    padding-top: 30%;
 }
 
 .container h2{
@@ -80,22 +82,9 @@ video{
     font-family: "Rubik", sans-serif;
     font-size: 120%;
     font-weight: 40;
-    width: 35%;
+    width: 58%;
     padding-top: 0%;
     padding-bottom: 1%;
-}
-
-.container h5{
-    font-family: "Tangerine", cursive;
-    color: white;
-    font-size: 200%;
-    align-items: end;
-    flex-direction: row;
-    margin-top: 1%;
-    padding-right: 5%;
-    float: right;
-    align-items: end;
-
 }
 
 .container a{
@@ -113,7 +102,7 @@ video{
   line-height: 90%;
   min-height: 4%;
   outline: 0;
-  padding: 12px 14px;
+  padding: 1% 1%;
   text-align: center;
   text-rendering: geometricprecision;
   text-transform: none;
