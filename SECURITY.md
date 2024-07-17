@@ -1,21 +1,18 @@
 # Security Policy
 
-## Supported Versions
+## Supported Versions- ALL
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Supports All Web Browsers.
 
 | Version | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
+| 5.0.x   | :white_check_mark: |
 | 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| < 4.0   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Website Is Safe To Use. 
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Website Will Be Updated Once In Every Month Depending On The Working Of Various External Links.
